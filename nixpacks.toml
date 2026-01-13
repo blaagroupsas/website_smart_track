@@ -1,9 +1,10 @@
 [phases.setup]
 nixPkgs = ['nodejs_20', 'php84', 'php84Packages.composer']
+aptPkgs = ['php-intl', 'php-zip']
 
 [phases.install]
 cmds = [
-    'composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader',
+    'composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader --ignore-platform-req=ext-intl --ignore-platform-req=ext-zip',
     'npm ci',
     'npm run build'
 ]
