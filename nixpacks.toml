@@ -1,10 +1,9 @@
 [phases.setup]
-nixPkgs = ['nodejs_20', 'php84', 'php84Packages.composer']
-aptPkgs = ['php-intl', 'php-zip']
+nixPkgs = ['nodejs_20', 'php84', 'php84Extensions.intl', 'php84Extensions.zip', 'php84Extensions.pdo', 'php84Extensions.pdo_pgsql', 'php84Packages.composer']
 
 [phases.install]
 cmds = [
-    'composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader --ignore-platform-req=ext-intl --ignore-platform-req=ext-zip',
+    'composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader',
     'npm ci',
     'npm run build'
 ]
@@ -17,4 +16,4 @@ cmds = [
 ]
 
 [start]
-cmd = 'php artisan serve --host=0.0.0.0 --port=$PORT'
+cmd = 'php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT'
