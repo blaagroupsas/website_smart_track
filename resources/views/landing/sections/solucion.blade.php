@@ -4,7 +4,7 @@
             <div class="lg:w-1/2">
                 <h2 class="text-4xl font-display font-bold mb-6">La Solución Todo-en-Uno</h2>
                 <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
-                    SMART-TRACK centraliza toda la información en una plataforma moderna y fácil de usar. Con sistema de semaforización (Verde, Amarillo, Rojo) para control visual instantáneo.
+                    Auto Pilot centraliza toda la información en una plataforma moderna y fácil de usar. Con sistema de semaforización (Verde, Amarillo, Rojo) para control visual instantáneo.
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3">

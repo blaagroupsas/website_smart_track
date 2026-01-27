@@ -10,7 +10,7 @@
                     <tr>
                         <th class="p-6 text-sm font-bold">Concepto</th>
                         <th class="p-6 text-sm font-bold text-center">Costo Actual (Anual)</th>
-                        <th class="p-6 text-sm font-bold text-center">Con SMART-TRACK</th>
+                        <th class="p-6 text-sm font-bold text-center">Con Auto Pilot</th>
                         <th class="p-6 text-sm font-bold text-right text-emerald-600">Ahorro Anual</th>
                     </tr>
                 </thead>

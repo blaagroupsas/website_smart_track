@@ -15,7 +15,7 @@
             <div class="relative z-10">
                 <div class="flex items-center gap-2 mb-8">
                     <span class="material-icons-round text-cyan-400">local_shipping</span>
-                    <span class="font-bold tracking-widest text-xs uppercase opacity-80">Smart-Track Colombia</span>
+                    <span class="font-bold tracking-widest text-xs uppercase opacity-80">Auto Pilot Colombia</span>
                 </div>
                 
                 <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-4">Impulsa tu flota</h2>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="flex flex-col">
                             <span class="text-[10px] uppercase opacity-60 font-bold tracking-wider">Ventas Corporativas</span>
-                            <span class="text-sm font-medium">comercial@smart-track.co</span>
+                            <span class="text-sm font-medium">comercial@Auto Pilot.co</span>
                         </div>
                     </div>
                 </div>

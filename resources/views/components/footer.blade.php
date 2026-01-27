@@ -2,10 +2,10 @@
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
         <div class="flex items-center gap-2">
             <span class="material-icons-round text-primary text-3xl">directions_bus</span>
-            <span class="font-display text-xl font-bold">SMART-TRACK</span>
+            <span class="font-display text-xl font-bold">Auto Pilot</span>
         </div>
         <p class="text-slate-500 text-sm">
-            © {{ date('Y') }} SMART-TRACK. Todos los derechos reservados. <br/>
+            © {{ date('Y') }} Auto Pilot. Todos los derechos reservados. <br/>
             Sistema Integral de Gestión para Empresas de Transporte.
         </p>
         <div class="flex gap-6">
